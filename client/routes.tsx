@@ -4,7 +4,6 @@ import {
   Route,
 } from 'react-router-dom'
 import App from './App.tsx'
-import Nav from './components/Nav.tsx'
 import Project from './components/Projects.tsx'
 import Info from './components/Info.tsx'
 import ContactForm from './components/Contact.tsx'

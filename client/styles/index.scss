@@ -55,6 +55,9 @@ body, p {
 
 #project li, #info li{
   list-style: none;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 #contact{
