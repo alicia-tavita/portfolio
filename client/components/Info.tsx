@@ -10,7 +10,7 @@ function Info() {
 
   return (
     <>
-      <section className="info-nav">
+      <section id="info">
         {infoItems.map((item, index) => (
           <div key={index}>
             <li key={index}>

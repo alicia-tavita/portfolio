@@ -1,15 +1,33 @@
 //house my project links
 function Project() {
   const projectItems = [
-    { title: '', link: '' },
-    { title: '', link: '' },
-    { title: '', link: '' },
-    { title: '', link: '' },
+    {
+      title: 'todos',
+      link: 'http://alicia-matai24-todo-full-stack.devacademy.nz/',
+    },
+    { title: 'Nothing yet', link: '' },
+    { title: 'Nothing yet', link: '' },
+    { title: 'Nothing yet', link: '' },
+    { title: 'Nothing yet', link: '' },
+    { title: 'Nothing yet', link: '' },
+    { title: 'Nothing yet', link: '' },
+    { title: 'Nothing yet', link: '' },
+    { title: 'Nothing yet', link: '' },
+    { title: 'Nothing yet', link: '' },
+    { title: 'Nothing yet', link: '' },
+    { title: 'Nothing yet', link: '' },
+    { title: 'Nothing yet', link: '' },
+    { title: 'Nothing yet', link: '' },
+    { title: 'Nothing yet', link: '' },
+    { title: 'Nothing yet', link: '' },
+    { title: 'Nothing yet', link: '' },
+    { title: 'Nothing yet', link: '' },
+    { title: 'Nothing yet', link: '' },
   ]
 
   return (
     <>
-      <section className="project-nav">
+      <section id="project">
         {projectItems.map((item, index) => (
           <div key={index}>
             <li key={index}>

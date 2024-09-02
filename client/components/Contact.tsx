@@ -5,10 +5,8 @@ const ContactForm = () => {
   const { formState, getFormSubmitHandler } = useFormData('')
 
   return (
-    <>
-      {!!formState.status && (
-        <div className="py-2">Current form status is: {formState.status}</div>
-      )}
+    <div id="contact">
+      {!!formState.status && <div className="py-2"></div>}
       <form onSubmit={getFormSubmitHandler()}>
         <div className="pt-0 mb-3">
           <input
@@ -45,7 +43,7 @@ const ContactForm = () => {
           </button>
         </div>
       </form>
-    </>
+    </div>
   )
 }
 
