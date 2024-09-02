@@ -3,7 +3,7 @@ function Project() {
   const projectItems = [
     {
       title: 'todos',
-      link: 'http://alicia-matai24-todo-full-stack.devacademy.nz/',
+      link: 'https://anahera-matai24-todo-fullstack.devacademy.nz/',
     },
     {
       title: 'film-stuff',
