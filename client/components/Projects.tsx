@@ -2,14 +2,9 @@
 function Project() {
   const projectItems = [
     {
-      title: 'todos',
-      link: 'https://anahera-matai24-todo-fullstack.devacademy.nz/',
+      title: 'flatbook',
+      link: 'https://github.com/matai-2024/flatbook',
     },
-    {
-      title: 'film-stuff',
-      link: 'https://alicia-tavita.github.io/blog/film-portfolio.html',
-    },
-    { title: 'polaroids', link: '' },
     { title: 'Nothing yet', link: '' },
     { title: 'Nothing yet', link: '' },
     { title: 'Nothing yet', link: '' },
